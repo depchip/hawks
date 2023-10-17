@@ -53,6 +53,25 @@ body{
     transform: rotate(180deg);
 }
 
+.animate {
+    animation: slideIn 3s ease-in-out 3s infinite; /* 2s delay added here */
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
 .row .btn{
     outline: none;
     border: none;
@@ -115,12 +134,27 @@ body{
     left: 0;
 }
 
-.header .navbar ul{
+.header .navbar ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
+.header .navbar a {
+    text-decoration: none;
+    color: black; /* Cool black color */
+    font-size: 25px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    transition: font-size 0.5s;
+}
+
+.header .navbar a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+    font-size: 25px; /* Increase font size on hover */
+}
+
 
 .header .navbar ul li{
     margin: 0 1.5rem;
@@ -128,13 +162,9 @@ body{
 
 .header .navbar ul li a{
     font-size: 2rem;
-    color: #fff;
+    color: black;
 }
 
-.header .navbar ul li a:hover{
-    color: #00bfff;
-    text-decoration: underline;
-}
 
 .header .logo i{
     padding: 0.5rem;
