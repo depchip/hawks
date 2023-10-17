@@ -266,6 +266,40 @@ body{
     color: #333;
     padding: 1rem 0;
 }
+.WhoWeAre {
+    min-height: 55vh;
+    width: 100vw;
+    top: -3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    line-height: 10rem;
+    background-color: lightblue;
+}
+
+.WhoWeAre .row {
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space around;
+    padding: 0 4rem;
+}
+
+.WhoWeAre .row .content {
+    text-align: center;
+}
+
+.WhoWeAre .row .content h3 {
+    font-size: 3rem;
+    color: black;
+}
+
+.WhoWeAre .row .content p {
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
 .pt-5 .container .row .section-head p{
     font-size: 2rem;
     color: #333;

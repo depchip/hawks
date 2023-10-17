@@ -5,19 +5,21 @@ $(document).ready(function(){
         $('.navbar').toggleClass('nav-toggle');
     });
 
-    $(window).on('load scroll',function(){
+    $(window).on('load scroll', function () {
         $('.fa-bars').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
-
-        if($(window).scrollTop()>35)
-        {
-            $('.header').css({'background':'none','box-shadow':'0 .2rem .5rem rgba(0,0,0,.4)'});
-        }
-        else
-        {
-            $('.header').css({'background':'none','box-shadow':'none'});
+    
+        if ($(window).scrollTop() > 35) {
+            // Add a class to the ul elements to change their background to white
+            $('.navbar ul').addClass('navbar');
+            $('.header').css({ 'box-shadow': '0 .2rem .5rem rgba(0,0,0,.4)' });
+        } else {
+            // Remove the class to revert the background to its original state
+            $('.navbar ul').removeClass('white-bg');
+            $('.header').css({ 'box-shadow': 'none' });
         }
     });
+    
 
     const counters = document.querySelectorAll('.counter');
     const speed = 120;
