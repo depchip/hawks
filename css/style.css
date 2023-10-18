@@ -343,6 +343,72 @@ body{
     color: #333;
     padding: 1rem 0;
 }
+.OurMission {
+    min-height: 40vh;
+    width: 100vw;
+    top: -3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    line-height: 10rem;
+    background-color: lightcyan;
+}
+
+.OurMission .row {
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space around;
+    padding: 0 4rem;
+}
+
+.OurMission .row .content {
+    text-align: center;
+}
+
+.OurMission .row .content h3 {
+    font-size: 3rem;
+    color: black;
+}
+
+.OurMission .row .content p {
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+}
+.OurVision {
+    min-height: 40vh;
+    width: 100vw;
+    top: -3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    line-height: 10rem;
+    background-color: lightgray;
+}
+
+.OurVision .row {
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space around;
+    padding: 0 4rem;
+}
+
+.OurVision .row .content {
+    text-align: center;
+}
+
+.OurVision .row .content h3 {
+    font-size: 3rem;
+    color: black;
+}
+
+.OurVision .row .content p {
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+}
   .section-head{
     margin-bottom: 60px;
     text-align: center;
