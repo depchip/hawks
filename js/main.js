@@ -67,10 +67,14 @@ $('.back-to-top').click(function () {
 });
 
 $('.accordion-header').click(function(){
-    $('.accordion .accordion-body').slideUp(500);
-    $(this).next('.accordion-body').slideDown(500);
-    $('.accordion .accordion-header span').text('+');
-    $(this).children('span').text('-');
+    var accordionBody = $(this).next('.accordion-body');
+    var icon = $(this).find('span');
+    
+    accordionBody.slideToggle(500, function(){
+        icon.text(accordionBody.is(':visible') ? '-' : '+');
+    });
 });
+
+
 
 });
