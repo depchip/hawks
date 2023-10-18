@@ -134,6 +134,12 @@ body{
     left: 0;
 }
 
+.header.hidden {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
 .header .navbar ul {
     list-style-type: none;
     display: flex;
@@ -274,7 +280,7 @@ body{
     position: relative;
     overflow: hidden;
     line-height: 10rem;
-    background-color: lightblue;
+    background-color: lightgoldenrodyellow;
 }
 
 .WhoWeAre .row {
@@ -299,7 +305,39 @@ body{
     color: #333;
     padding: 1rem 0;
 }
+.WhyUs {
+    min-height: 40vh;
+    width: 100vw;
+    top: -3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    line-height: 10rem;
+    background-color: lightblue;
+}
 
+.WhyUs .row {
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space around;
+    padding: 0 4rem;
+}
+
+.WhyUs .row .content {
+    text-align: center;
+}
+
+.WhyUs .row .content h3 {
+    font-size: 3rem;
+    color: black;
+}
+
+.WhyUs .row .content p {
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+}
 .pt-5 .container .row .section-head p{
     font-size: 2rem;
     color: #333;
