@@ -166,10 +166,17 @@ body{
     margin: 0 1.5rem;
 }
 
-.header .navbar ul li a{
-    font-size: 2rem;
+.header .navbar ul li a {
+    font-size: 2.2rem;
     color: black;
+    font-weight: bold;
+    background: transparent; /* Change "yellow" to the color you want to use */
+    border-radius: 10px; /* Add a border radius to create rounded corners */
+    padding: 0.2em 0.5em;
 }
+
+
+
 
 
 .header .logo i{
