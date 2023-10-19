@@ -175,13 +175,10 @@ body{
     padding: 0.2em 0.5em;
 }
 
-
-
-
-
 .header .logo i{
     padding: 0.5rem;
 }
+
 
 .header .fa-bars{
     color: #fff;
@@ -209,10 +206,18 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* To maintain aspect ratio */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     z-index: -1;
 }
+
+@media (max-width: 768px) {
+    .home video {
+        width: auto;
+    }
+}
+
 
 
 .home h1{

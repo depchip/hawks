@@ -25,7 +25,7 @@
 
 <body>
     <header class="header">
-        <a href="#" class="logo"><img src="./images/image.png" alt="" style="width: 100px; height: 100px;"></a>
+        <a href="#" class="logo"><img src="./images/image.png" alt="" style="width: 100px; height: auto;"></a>
         <div class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
@@ -42,10 +42,12 @@
     </header>
 
   <section id="home" class="home">
-    <video autoplay muted loop poster="../images/img1.jpg">
-        <source src="../images/officeMeeting.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="video-container">
+      <video autoplay muted loop poster="../images/img1.jpg">
+            <source src="../images/officeMeeting.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+       </video>
+    </div>
     <h1 class="animate first">Hire. Expand. Succeed. Virtually</h1>
     <h2 class="animate second">Unlock Global Talent, Hire Your Virtual Dream Team</h2>
     <div class="wave wave1"></div>
