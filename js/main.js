@@ -8,7 +8,7 @@ $(document).ready(function(){
     $(window).on('load scroll', function () {
         $('.fa-bars').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
-    
+        $('.header').css('background-color', 'White');
         if ($(window).scrollTop() > 100) {
             $('.header').addClass('hidden');
         } else {
