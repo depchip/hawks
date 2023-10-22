@@ -190,7 +190,6 @@ body{
 .home {
     min-height: 100vh;
     width: 100vw;
-   
     background-size: cover;
     display: flex;
     align-items: center;
@@ -1383,6 +1382,20 @@ body{
         margin-top: 2.5rem;
         text-align: center;
         font-size: 2rem;
+    }
+
+    .clients-carousel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .clients-carousel img {
+        width: 150px; /* Set the desired width for your logos */
+        height: auto; /* Auto adjust the height to maintain the aspect ratio */
+        margin: 10px; /* Add margin to space out the logos */
+        align-items: center;
     }
 
     .team{

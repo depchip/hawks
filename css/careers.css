@@ -32,36 +32,57 @@ body{
 }
 
 .header .logo img{
-    width: 20%;
+    width: 130%;
     height: 3rem;
     top: 0;
     left: 0;
 }
 
-.header .navbar ul{
+.header.hidden {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.header .navbar ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+.header .navbar a {
+    text-decoration: none;
+    color: black; /* Cool black color */
+    font-size: 25px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    transition: font-size 0.5s;
+}
+
+.header .navbar a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+    font-size: 25px; /* Increase font size on hover */
+}
+
+
 .header .navbar ul li{
     margin: 0 1.5rem;
 }
 
-.header .navbar ul li a{
-    font-size: 2rem;
-    color: #fff;
-}
-
-.header .navbar ul li a:hover{
-    color: #00bfff;
-    text-decoration: underline;
+.header .navbar ul li a {
+    font-size: 2.2rem;
+    color: black;
+    font-weight: bold;
+    background: transparent; /* Change "yellow" to the color you want to use */
+    border-radius: 10px; /* Add a border radius to create rounded corners */
+    padding: 0.2em 0.5em;
 }
 
 .header .logo i{
     padding: 0.5rem;
 }
+
 
 .header .fa-bars{
     color: #fff;
@@ -69,6 +90,7 @@ body{
     font-size: 3rem;
     display: none;
 }
+
 
 .home{
     min-height: 70vh;
