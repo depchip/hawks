@@ -16,15 +16,15 @@ $(document).ready(function(){
         }
     });
 
-    function showDropdown() {
-        document.getElementById("services-dropdown").style.display = "block";
-    }
-    
-    function hideDropdown() {
-        document.getElementById("services-dropdown").style.display = "none";
-    }
-    
+    document.addEventListener('DOMContentLoaded', function() {
+        function showDropdown() {
+            document.getElementById("services-dropdown").style.display = "block";
+        }
 
+        function hideDropdown() {
+            document.getElementById("services-dropdown").style.display = "none";
+        }
+    });
 
     const counters = document.querySelectorAll('.counter');
     const speed = 120;
