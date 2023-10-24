@@ -32,7 +32,17 @@
             <ul>
                 <li><a href="index.html#home">Home</a></li>
                 <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#service">Services</a></li>
+                <li class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                    <a href="javascript:void(0)">Services</a>
+                    <div class="dropdown-content" id="services-dropdown">
+                        <a href="index.html#service">Lead Generation</a>
+                        <a href="index.html#service">E-Commerce Support</a>
+                        <a href="index.html#service">Email / Live Chat Support</a>
+                        <a href="index.html#service">Data Clean-up Support</a>
+                        <a href="index.html#service">Web App Development</a>
+                        <a href="index.html#service">Digital Marketing</a>
+                    </div>
+                </li>
                 <li><a href="index.html#portfolio">Portfolio</a></li>
                 <li><a href="careers.html">Career</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
@@ -40,7 +50,8 @@
             </ul>
         </nav>
     </header>
-
+    
+    
   <section id="home" class="home">
     <video autoplay muted loop poster="../images/img1.jpg">
         <source src="../images/officeMeeting.mp4" type="video/mp4">
@@ -60,12 +71,14 @@
     <div class="row">
         <div class="content">
             <p>
+                Team-Hawks is a pool of talented and creative minds that provide cutting-edge 
+                solutions globally by providing knowledgeable agents who are trained to be specialists.<br>
                 Our work encapsulates the spirit to breathe life into projects. We curate and execute a 
-                robust strategy tailored to specific business needs propelling brands into fame. In a world of 
-                extraordinary, we believe companies need something more to be attention-worthy. Our work enables them 
-                to connect with customers beyond business. Our team of experts leverages cutting-edge technology to 
-                simplify processes, streamline operations, and drive growth for our clients with a focus on quality and 
-                commitment.
+                robust strategy tailored to specific business needs propelling brands into fame. 
+                In a world of extraordinary, we believe companies need something more to be 
+                attention-worthy. Our work enables them to connect with customers beyond business. Our 
+                team of experts leverages cutting-edge technology to simplify processes, streamline 
+                operations, and drive growth for our clients with a focus on quality and commitment.
             </p>
         </div>
     </div>
@@ -115,45 +128,44 @@
       <div class="row">
         <div class="section-head col-sm-12" id="service">
           <h1>Our Services</h1>
-          <p>We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.
-            </p>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-            <h6>E-Commerce Support</h6>
-            <p>In the world of e-commerce, excellent customer service sets you apart. Our E-Commerce Support service empowers you to provide an outstanding shopping experience. We help manage various aspects of your online store, from order processing to customer inquiries. Our aim is to enhance your e-commerce operations, allowing you to focus on growth.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-            <h6>Email / Live Chat</h6>
-            <p>Efficient communication is essential for engaging your audience. Our Email and Live Chat support services provide fast, effective customer interaction. We offer responsive email and live chat solutions, ensuring your customers' inquiries are addressed in real-time. Our skilled agents provide informative, polite, and personalized responses, strengthening customer relationships and trust.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
-            <h6>Data Clean-up Support</h6>
-            <p>Ensure the reliability and accuracy of your data with our Data Clean-up Support service. We understand the critical importance of clean data in decision-making and operations. Our expert team diligently reviews, validates, and rectifies your data, eliminating errors and inconsistencies. Using cutting-edge tools and best practices, we transform your data into a dependable asset.</p>
-          </div>
+          <p>We help you build high-quality digital solutions and products, along with offering various related professional services, providing world-class support to our clients.</p>
         </div>
         <div class="col-lg-4 col-sm-6">
             <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-              <h6>Web App Development</h6>
-              <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For The Challenge.</p>
+            <h6>Lead Generation Services</h6>
+                <p>Generating leads is essential for business growth. Our Lead Generation Services connect you with potential customers interested in your products. We use targeted strategies to attract, engage, and convert these leads, so you can focus on growing your business.</p>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+            <h6>E-Commerce Support</h6>
+            <p>In e-commerce, excellent customer service sets you apart. Our E-Commerce Support empowers you to provide an outstanding shopping experience. We manage various aspects of your online store, enhancing operations and allowing you to focus on growth.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
             <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-              <h6>Mobile App Development</h6>
-              <p>We Have Expertise In Creating Multi-Platform Mobile App Solutions For Both Android And IOS Devices. Using PhoneGap, Xamarin, And React Native, We Offer Custom Mobile App That Runs Smoothly On Multiple Platforms.</p>
+            <h6>Email / Live Chat Support</h6>
+            <p>Efficient communication is essential for engaging your audience. Our Email and Live Chat support services provide fast, effective customer interaction. We offer responsive solutions, ensuring inquiries are addressed in real-time, strengthening customer relationships and trust.</p>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
+        </div>
+        <div class="col-lg-4 col-sm-6">
             <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
-              <h6>Digital Marketing</h6>
-              <p>The digital marketing services that we provide have their own set of charms. By taking our digital marketing services, our clients will be able to increase visibility and engage with their customers at the online platform.</p>
-            </div>
-          </div>
+            <h6>Data Clean-up Support</h6>
+            <p>Ensure the reliability and accuracy of your data with our Data Clean-up Support. We understand the importance of clean data in decision-making. Our expert team diligently reviews, validates, and rectifies your data, eliminating errors and inconsistencies.</p>
+        </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+            <h6>Web App Development</h6>
+            <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For The Challenge.</p>
+        </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+            <h6>Digital Marketing</h6>
+            <p>Our digital marketing services increase visibility and engage with customers online. By taking our digital marketing services, clients will be able to grow their online presence and connect with their audience.</p>
+        </div>
+        </div>
       </div>
     </div>
 </div>
@@ -250,7 +262,7 @@
                     <p>
                         Working with this team has been a game-changer for our marketing efforts. 
                         They consistently deliver innovative strategies that have significantly boosted 
-                        our ROI.
+                        our ROI. They are highly recommended.
                     </p>
                 </div>
             </div>
@@ -277,12 +289,12 @@
                 </div>
             </div>
                 <div class="testimonial-text">
-                    <h3>Emily Davis</h3>
-                    <h4>CFO (Chief Financial Officer)</h4>
+                    <h3>Guy Griffith</h3>
+                    <h4>Operations Manager</h4>
                     <p>
-                        Hamid's Team's financial insights and strategic guidance have been invaluable to 
-                        our company's growth. His expertise in managing our finances has 
-                        ensured stability and sustainable success.
+                        Team-Hawks has been fantastic! They're proactive, enthusiastic, and really 
+                        dedicated to helping our business. We highly recommend Team-Hawks 
+                        for their great support. Thanks, Team-Hawks!
                     </p>
                 </div>
             </div>
@@ -451,13 +463,17 @@
           </div>
       </div>
 
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
-                  Copyright &copy; 2023 Team Hawks. All Rights Reserved.
-              </div>
-          </div>
-      </div>
+      <<div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-2">
+                <img src="./images/image.png" alt="Your Logo" width="80" height="auto">
+            </div>
+            <div class="col-md-4 copyright" style="color: #fff; font-size: 1.3rem;">
+                Copyright &copy; 2023 Team Hawks. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+    
   </div>
 
   <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>

@@ -21,13 +21,23 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"><img src="./images/image.png" alt="" style="width: 80px; height: auto;"></a>
+        <a href="#" class="logo"><img src="./images/image.png" alt="" style="width: 90px; height: auto;"></a>
         <div class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
                 <li><a href="index.html#home">Home</a></li>
                 <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#service">Services</a></li>
+                <li class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                    <a href="javascript:void(0)">Services</a>
+                    <div class="dropdown-content" id="services-dropdown">
+                        <a href="index.html#service">Lead Generation</a>
+                        <a href="index.html#service">E-Commerce Support</a>
+                        <a href="index.html#service">Email / Live Chat Support</a>
+                        <a href="index.html#service">Data Clean-up Support</a>
+                        <a href="index.html#service">Web App Development</a>
+                        <a href="index.html#service">Digital Marketing</a>
+                    </div>
+                </li>
                 <li><a href="index.html#portfolio">Portfolio</a></li>
                 <li><a href="careers.html">Career</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
