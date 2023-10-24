@@ -15,6 +15,14 @@ $(document).ready(function(){
             $('.header').removeClass('hidden');
         }
     });
+
+    function showDropdown() {
+        document.getElementById("services-dropdown").style.display = "block";
+    }
+    
+    function hideDropdown() {
+        document.getElementById("services-dropdown").style.display = "none";
+    }
     
 
 
