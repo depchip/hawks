@@ -150,7 +150,6 @@ body{
     text-decoration: none;
     color: black; /* Cool black color */
     font-size: 18px; /* Larger font size */
-    font-weight: bold; /* Bold text */
     transition: font-size 0.5s;
 }
 
@@ -220,11 +219,13 @@ body{
 .home h1{
     color: blue;
     font-size: 5.5rem;
+    margin-top: 200px;
 }
 
 .home h2{
     color: blue;
     font-size: 3rem;
+  
 }
 
 .home .wave{
@@ -391,7 +392,6 @@ body{
     padding: 8px 12px; /* Reduced the padding */
     text-decoration: none;
     display: block;
-    font-size: 10px; /* Reduced the font size */
 }
 
 
@@ -1345,7 +1345,7 @@ body{
 
     .header .navbar ul li a{
         color: grey;
-        font-size: 2.4rem;
+        font-size: 2.3rem;
     }
 
     .header .fa-times{
